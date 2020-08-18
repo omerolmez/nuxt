@@ -1,0 +1,37 @@
+[
+  {
+    "name": "products",
+    "path": "/products",
+    "component": "/Users/omerolmez/Desktop/nuxt/2-pages-routing-views-layouts-baslangic-kodu/pages/products/index.vue",
+    "chunkName": "pages/products/index",
+    "_name": "_3cfc3621"
+  },
+  {
+    "name": "products-edit-productId",
+    "path": "/products/edit/:productId?",
+    "component": "/Users/omerolmez/Desktop/nuxt/2-pages-routing-views-layouts-baslangic-kodu/pages/products/edit/_productId.vue",
+    "chunkName": "pages/products/edit/_productId",
+    "_name": "_1cdeaf9f"
+  },
+  {
+    "name": "products-productId",
+    "path": "/products/:productId",
+    "component": "/Users/omerolmez/Desktop/nuxt/2-pages-routing-views-layouts-baslangic-kodu/pages/products/_productId/index.vue",
+    "chunkName": "pages/products/_productId/index",
+    "_name": "_e0cedba2"
+  },
+  {
+    "name": "products-productId-details",
+    "path": "/products/:productId/details",
+    "component": "/Users/omerolmez/Desktop/nuxt/2-pages-routing-views-layouts-baslangic-kodu/pages/products/_productId/details.vue",
+    "chunkName": "pages/products/_productId/details",
+    "_name": "_fd117342"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/omerolmez/Desktop/nuxt/2-pages-routing-views-layouts-baslangic-kodu/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_af194cf0"
+  }
+]

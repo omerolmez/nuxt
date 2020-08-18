@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/products",
+    "component": "/Users/omerolmez/Desktop/nuxt/2-7-2-odev-1-cozum-kodu/pages/products.vue",
+    "chunkName": "pages/products",
+    "children": [
+      {
+        "name": "products",
+        "path": "",
+        "component": "/Users/omerolmez/Desktop/nuxt/2-7-2-odev-1-cozum-kodu/pages/products/index.vue",
+        "chunkName": "pages/products/index",
+        "_name": "_6e041aac"
+      },
+      {
+        "name": "products-productId",
+        "path": ":productId",
+        "component": "/Users/omerolmez/Desktop/nuxt/2-7-2-odev-1-cozum-kodu/pages/products/_productId/index.vue",
+        "chunkName": "pages/products/_productId/index",
+        "_name": "_870a53f4"
+      },
+      {
+        "name": "products-productId-edit",
+        "path": ":productId/edit",
+        "component": "/Users/omerolmez/Desktop/nuxt/2-7-2-odev-1-cozum-kodu/pages/products/_productId/edit.vue",
+        "chunkName": "pages/products/_productId/edit",
+        "_name": "_4aa916f4"
+      }
+    ],
+    "_name": "_bdb95532"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/omerolmez/Desktop/nuxt/2-7-2-odev-1-cozum-kodu/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_1356aedf"
+  }
+]
