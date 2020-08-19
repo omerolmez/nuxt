@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83566b89-a81f-45d6-95d8-ef0197c7899d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.idea/6-nuxtjs-config-modules-ve-plugins-baslangic-kodu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/components/nuxt-build-indicator.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/components/nuxt-child.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/components/nuxt-error.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/components/nuxt-link.client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/components/nuxt-link.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/components/nuxt-loading.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/components/nuxt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/empty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/jsonp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/loading.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/mixins/fetch.client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/mixins/fetch.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/router.scrollBehavior.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/routes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/views/app.template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/.nuxt/views/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/assets/style/transition.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/pages/test.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../6-nuxtjs-config-modules-ve-plugins-baslangic-kodu/plugins/Components.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/7-middleware-cookies-localstorage-auth-baslangic-kodu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/session-control.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/.nuxt/routes.json" beforeDir="false" afterPath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/.nuxt/routes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/components/admin/PostForm.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/components/admin/PostForm.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/admin/_postId/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/admin/_postId/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/admin/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/admin/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/admin/new-post.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/admin/new-post.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/posts/_postId/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/posts/_postId/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/posts/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/posts/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/store/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1gKJk1FBJ141D1Yt2onrGh2hXxJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83566b89-a81f-45d6-95d8-ef0197c7899d" name="Default Changelist" comment="" />
+      <created>1597857489779</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597857489779</updated>
+      <workItem from="1597857490990" duration="10001000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="600" height="428" key="javadoc.popup" timestamp="1597866204507">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1597866204507" />
+  </component>
+</project>

@@ -3,36 +3,42 @@
     "name": "admin",
     "path": "/admin",
     "component": "/Users/omerolmez/Desktop/nuxt/3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/admin/index.vue",
-    "chunkName": "pages/admin/index"
+    "chunkName": "pages/admin/index",
+    "_name": "_42015054"
   },
   {
     "name": "posts",
     "path": "/posts",
     "component": "/Users/omerolmez/Desktop/nuxt/3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/posts/index.vue",
-    "chunkName": "pages/posts/index"
+    "chunkName": "pages/posts/index",
+    "_name": "_0e8ff3d8"
   },
   {
     "name": "admin-new-post",
     "path": "/admin/new-post",
     "component": "/Users/omerolmez/Desktop/nuxt/3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/admin/new-post.vue",
-    "chunkName": "pages/admin/new-post"
+    "chunkName": "pages/admin/new-post",
+    "_name": "_44188aca"
   },
   {
     "name": "admin-postId",
     "path": "/admin/:postId",
     "component": "/Users/omerolmez/Desktop/nuxt/3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/admin/_postId/index.vue",
-    "chunkName": "pages/admin/_postId/index"
+    "chunkName": "pages/admin/_postId/index",
+    "_name": "_a0ecdd02"
   },
   {
     "name": "posts-postId",
     "path": "/posts/:postId",
     "component": "/Users/omerolmez/Desktop/nuxt/3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/posts/_postId/index.vue",
-    "chunkName": "pages/posts/_postId/index"
+    "chunkName": "pages/posts/_postId/index",
+    "_name": "_140e7103"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/omerolmez/Desktop/nuxt/3-uygulama-uzerinden-pages-routing-views-layouts-baslangic-kodu/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_4f516694"
   }
 ]

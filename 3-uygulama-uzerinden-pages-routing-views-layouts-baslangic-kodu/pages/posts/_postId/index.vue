@@ -4,10 +4,21 @@
 
 <script>
 import PostDetail from "@/components/post/PostDetail";
+import axios from "axios";
+
 export default {
   components: {
     PostDetail
   },
+  asyncData(context) {
+    return axios.get("https://kose-yazilari-01.firebaseio.com/posts/" + context.params.postId  + ".json")
+      .then(response => {
+        return {
+          fetchedPost: response.data
+        }
+      })
+  }
+  /*
   asyncData(context, callback) {
     setTimeout(() => {
       callback(null, {
@@ -20,7 +31,7 @@ export default {
         }
       })
     })
-  }
+  }*/
 }
 </script>
 

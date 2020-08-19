@@ -11,7 +11,12 @@ export default {
   components: {
     PostList,
   },
-  asyncData(context, callback) {// ssr yapması için created yerine bu func kullanılır...
+  computed: {
+    fetchedPost() {
+      return this.$store.getters.getPosts;
+    }
+  }
+  /*asyncData(context, callback) {// ssr yapması için created yerine bu func kullanılır...
     setTimeout(() => {
       callback(null, {
         fetchedPost: [{
@@ -30,7 +35,7 @@ export default {
           }]
       });
     }, 2000)
-  }
+  }*/
 }
 </script>
 
