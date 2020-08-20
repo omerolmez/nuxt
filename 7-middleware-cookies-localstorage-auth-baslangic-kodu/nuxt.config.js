@@ -50,7 +50,11 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
+  },
+
+  env: {
+    firebaseAPIKEY: "AIzaSyCoBeIx-HO6zhiepieKx63oDNij_vJRqaM"
   }
 }

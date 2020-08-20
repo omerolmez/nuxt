@@ -32,6 +32,7 @@
   </div>
 </template>
 <script>
+  import axios from "axios";
   export default {
     data(){
       return {
@@ -44,11 +45,12 @@
     },
     methods : {
       onSubmit(){
-        setTimeout(() => {
-          this.$store.dispatch("login", "auth-key-from-freifbase");
+        this.$store.dispatch("authUser", {
+          isUser: this.isUser,
+          user: this.user
+        }).then(response => {
           this.$router.push("/");
-        }, 100)
-
+        });
       }
     }
   }

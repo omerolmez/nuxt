@@ -1,5 +1,6 @@
 import Vuex from "vuex";
 import Cookie from "js-cookie";
+import axios from "axios";
 
 const createStore = () => {
     return new Vuex.Store({
@@ -12,6 +13,12 @@ const createStore = () => {
             },
             clearAuthKey(state) {
                 Cookie.remove('authKey');
+                Cookie.remove('expiresIn');
+                if (process.client) {
+                    localStorage.removeItem("authKey");
+                    localStorage.removeItem("expiresIn");
+                }
+
                 state.authKey = null;
             }
         },
@@ -20,6 +27,7 @@ const createStore = () => {
             },
             initAuth(vuexContext, req) {
                 let token;
+                let expiresIn;
                 if (req) {
                     if (!req.headers.cookie) {
                         return;
@@ -27,23 +35,42 @@ const createStore = () => {
 
                     token = req.headers.cookie.split(";").find(c => c.trim().startsWith("authKey="));
                     if (token) {
-                        console.log('SERVER EVET');
                         token = token.split("=")[1];
                     }
-                    console.log('SERVER', token);
+
+                    expiresIn = req.headers.cookie.split(";").find(c => c.trim().startsWith("expiresIn="));
+                    if (expiresIn) {
+                        token = token.split("=")[1];
+                    }
                 } else {
                     token = localStorage.getItem("authKey");
-                    if (!token) {console.log('FALSE');
-                        return;
-                    }
+                    expiresIn = localStorage.getItem("expiresIn");
+                }
+                if (new Date().getTime() > +expiresIn || !token) {
+                    vuexContext.commit("clearAuthKey");
                 }
                 vuexContext.commit("setAuthKey", token);
             },
-            login(vuexContext, authKey) {
-                Cookie.set('authKey', authKey);
-                localStorage.setItem("authKey", authKey);
-                //console.log(localStorage.getItem("authKey"));
-                vuexContext.commit("setAuthKey", authKey);
+            authUser(vuexContext, authData) {
+                let authLink = "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=";
+                if (authData.isUser) {
+                    authLink = "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=";
+                }
+
+                return axios.post(authLink + process.env.firebaseAPIKEY,  {
+                    email: authData.user.email, password: authData.user.password, returnSecureToken: true
+                }).then(response => {
+                    //let expireIn = new Date().getTime() + +response.data.expireIn * 1000; // bu demek oluyorki  3600 => 1 saatlik neyse ya anlatmıyorm lan!
+                    let expireIn = new Date().getTime() + 5000; // bu demek oluyorki  3600 => 1 saatlik neyse ya anlatmıyorm lan!
+                    Cookie.set('authKey', response.data.idToken);
+                    Cookie.set('expiresIn', expireIn);
+                    localStorage.setItem("authKey", response.data.idToken);
+                    localStorage.setItem("expiresIn", expireIn);
+                    vuexContext.commit("setAuthKey", response.data.idToken);
+                });
+            },
+            logout(vuexContext) {
+                vuexContext.commit("clearAuthKey");
             }
         },
         getters: {

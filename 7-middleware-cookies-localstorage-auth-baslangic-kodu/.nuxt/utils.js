@@ -150,7 +150,7 @@ export async function setContext (app, context) {
       payload: context.payload,
       error: context.error,
       base: '/',
-      env: {}
+      env: {"firebaseAPIKEY":"AIzaSyCoBeIx-HO6zhiepieKx63oDNij_vJRqaM"}
     }
     // Only set once
     if (!process.static && context.req) {
