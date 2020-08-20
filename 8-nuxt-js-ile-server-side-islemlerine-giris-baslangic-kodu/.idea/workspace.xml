@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83566b89-a81f-45d6-95d8-ef0197c7899d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="549538ec-c43f-453c-b92a-4911a4c86379" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../7-middleware-cookies-localstorage-auth-baslangic-kodu/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../7-middleware-cookies-localstorage-auth-baslangic-kodu/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1gKJk1FBJ141D1Yt2onrGh2hXxJ" />
+  <component name="ProjectId" id="1gMsGMpE294CckUqjum1j6zwygA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,24 +39,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/components" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="83566b89-a81f-45d6-95d8-ef0197c7899d" name="Default Changelist" comment="" />
-      <created>1597857489779</created>
+      <changelist id="549538ec-c43f-453c-b92a-4911a4c86379" name="Default Changelist" comment="" />
+      <created>1597935699174</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597857489779</updated>
-      <workItem from="1597857490990" duration="14825000" />
+      <updated>1597935699174</updated>
+      <workItem from="1597935700320" duration="1031000" />
     </task>
     <servers />
   </component>
@@ -73,11 +68,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="600" height="428" key="javadoc.popup" timestamp="1597866204507">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="600" height="428" key="javadoc.popup/0.0.1440.900/-1920.-84.1920.1080@0.0.1440.900" timestamp="1597866204507" />
   </component>
 </project>
